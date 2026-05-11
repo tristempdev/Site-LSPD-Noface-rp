@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #252525;
+    min-height: 200vh;
+}
+
+.img-container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;        
+    max-width: 1500px;  
+    z-index: 1;
+}
+
+.img-container img {
+    width: 100%;       
+    height: auto;
+    display: block;
+    border-radius: 15px; 
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
