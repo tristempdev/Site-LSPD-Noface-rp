@@ -8,7 +8,7 @@ body{
 
 .img-container {
     position: absolute;
-    top: 45%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;        
@@ -23,4 +23,13 @@ body{
     border-radius: 15px; 
     border: 2px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+
+.titre-lspd{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family: 'Sansation', sans-serif;
 }
