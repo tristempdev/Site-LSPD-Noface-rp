@@ -6,16 +6,6 @@ body{
     min-height: 200vh;
 }
 
-.img-container {
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;        
-    max-width: 1500px;  
-    z-index: 1;
-}
-
 .img-container img {
     width: 100%;       
     height: auto;
@@ -25,11 +15,21 @@ body{
     box-shadow: 0 10px 30px rgba(0,0,0,0.8);
 }
 
-.titre-lspd{
+.picture-home{
     color: white;
     text-align: center;
-    font-size: 50px;
+    height: 80vh;
+    background-image: url(/media/back-ground.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-home h1{
+    font-size: 80px;
+    color: white;
     text-transform: uppercase;
-    margin-top: 20px;
-    font-family: 'Sansation', sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 15px rgba(0,0,0,0.9);
 }

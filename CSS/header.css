@@ -1,13 +1,9 @@
 .header {
     position: fixed; 
-    top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #000814; 
-    border-top: 5px solid #001d4a; 
-    border-bottom: 2px solid #ceb05a
-
+    background-color: transparent 
 }
 
 .header-container{
@@ -16,8 +12,6 @@
     align-items: center;
     padding: 10px 30px;
     width: 100%;
-    box-sizing: border-box;
-    border-bottom: 2px solid #ceb05a;
 }
 
 .logo-ls{
