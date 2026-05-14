@@ -18,7 +18,7 @@ body{
 .picture-home{
     color: white;
     text-align: center;
-    height: 80vh;
+    height: 73vh;
     background-image: url(/media/back-ground.png);
     background-size: cover;
     display: flex;
