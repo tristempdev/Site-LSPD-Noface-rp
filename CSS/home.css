@@ -23,7 +23,8 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; 
+    padding-top: 150px;
 }
 
 .picture-home h1{

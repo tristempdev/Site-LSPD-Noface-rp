@@ -4,7 +4,7 @@
     width: 100%;
     z-index: 1000;
     background-color: transparent;
-    transition: 0.4s; 
+    transition: 0.2s; 
 }
 
 .header-container{
@@ -15,8 +15,8 @@
     width: 100%;
 }
 
-.header .scrolled{
-    background-color: #22427c !important;
+.header.scrolled{
+    background-color: #314e72 !important;
 }
 
 .logo-ls{
@@ -30,6 +30,7 @@
     list-style: none;   
     margin: 0;
     padding: 0;
+    margin-right: 6rem;
 }
 
 .nav-links a{
