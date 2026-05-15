@@ -18,13 +18,13 @@ body{
 .picture-home{
     color: white;
     text-align: center;
-    height: 73vh;
-    background-image: url(/media/back-ground.png);
+    height: 65vh;
+    background-image: url(../media/back-ground.png);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-start; 
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 .picture-home h1{
@@ -33,4 +33,12 @@ body{
     text-transform: uppercase;
     letter-spacing: 5px;
     text-shadow: 2px 2px 15px rgba(0,0,0,0.9);
+    transform: translateY(150px);
+}
+
+.main-texte{
+    color: white;
+    padding-left: 20rem;
+    font-size: 30px;
+    
 }
