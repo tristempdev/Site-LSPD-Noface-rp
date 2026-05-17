@@ -9,7 +9,7 @@
     transition: 0.2s; 
 }
 
-.header-container{
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,11 +17,11 @@
     width: 100%;
 }
 
-.header.scrolled{
+.header.scrolled {
     background-color: #001134 !important;
 }
 
-.logo-ls{
+.logo-ls {
     height: 50px;
     width: auto;
 }
