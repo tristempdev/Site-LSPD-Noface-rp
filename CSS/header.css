@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 .header {
     position: fixed; 
     left: 0;
@@ -16,7 +18,7 @@
 }
 
 .header.scrolled{
-    background-color: #314e72 !important;
+    background-color: #001134 !important;
 }
 
 .logo-ls{
@@ -37,20 +39,20 @@
 
 .nav-links {
     display: flex;      
-    gap: 30px;         
+    gap: 18px;         
     list-style: none;   
     margin: 0;
     padding: 0;
-    margin-right: 6rem;
+    margin-right: 5rem;
     align-items: center;
 }
 
 .nav-links a{
     color: white; 
     text-decoration: none;
-    font-family: 'Sansation', sans-serif;
-    font-size: 18px;
-    display: flex;  
+    font-family: 'Noto+Sans';
+    font-size: 20px;
+    display: flex;
 }
 
 .nav-links li:first-child a{
@@ -68,10 +70,12 @@
     top: 130%; 
     left: 50%;
     transform: translateX(-50%);
-    background: #000814;
+    background: #001134;
     min-width: 200px;
     z-index: 100;
-    padding: 10px 0; 
+    padding: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.8);
 }
 
 .submenu::before {
@@ -83,10 +87,12 @@
 }
 
 .submenu a {
-    display: block;
-    padding: 15px;      
+    padding: 10px 20px; 
+    display: block;     
+    text-align: left;  
     font-size: 18px;    
-    text-align: center; 
+    transition: background 0.2s ease;
+
 }
 
 .nav-links li:hover .submenu {

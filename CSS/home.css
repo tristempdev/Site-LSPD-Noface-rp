@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+
 body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     background-color: #252525;
     min-height: 200vh;
+}
+
+.main-footer {
+    background-color: #0b0c10; 
+    color: #7a828a;            
+    text-align: center;        
+    padding: 20px 0;           
+    font-family: 'Sansation', sans-serif; 
+    font-size: 14px;           
+    border-top: 2px solid #001134; 
+    margin-top: 1330px;
 }
 
 .img-container img {
@@ -16,8 +31,6 @@ body{
 }
 
 .picture-home{
-    color: white;
-    text-align: center;
     height: 65vh;
     background-image: url(../media/back-ground.png);
     background-size: cover;
@@ -34,11 +47,18 @@ body{
     letter-spacing: 5px;
     text-shadow: 2px 2px 15px rgba(0,0,0,0.9);
     transform: translateY(150px);
+    font-family: 'Montserrat';
 }
 
-.main-texte{
+.title{
     color: white;
-    padding-left: 20rem;
+    padding-left: 13rem;
+    font-size: 40px;
+    font-family: 'Playball';
+}
+
+.présentation{
+    color: white;
+    padding-left: 13rem;
     font-size: 30px;
-    
 }
